@@ -22,5 +22,5 @@ app.get('/about', function(req, res){
 });
 
 http.listen(port, function(){
-  console.log('listening on ' + app.get('port'));
+  console.log('listening on ' + port);
 });
