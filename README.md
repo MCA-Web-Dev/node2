@@ -6,9 +6,9 @@ This is an example of a node server using Express as middleware, EJS for templat
 ## Installing
 
 You need to install the following
-* Node
-* Gitbash (windows only)
-* Sublime, Atom, or Notepad++ (Optional, but recommended)
+* [Node](http://nodejs.org/download/)
+* [Gitbash](http://git-scm.com/downloads) (windows only)
+* [Sublime](http://www.sublimetext.com/), [Atom](https://atom.io/), or [Notepad++](http://notepad-plus-plus.org/) (Optional, but recommended)
 
 ### Usage
 ```
