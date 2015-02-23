@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <style>
+    .cat{
+      width:300px;
+    }
+  </style>
+
+
+<% include nav %>
+<h1><%= title %></h1>
+<ul>
+<% stringArr.forEach(function(a){ %>
+  <li><%= a %></li>
+<% }); %>
+</ul>
+<hr>
+<% stringArr.forEach(function(a){ %>
+  <img class="img cat" src="<%= a %>"></img>
+<% }); %>
+
+
+</body>
+</html>
