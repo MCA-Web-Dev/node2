@@ -1,3 +1,5 @@
+var port = process.env.PORT || 3000;
+
 var app = require('express')();
 var http = require('http').Server(app);
 app.set('view engine', 'ejs');
@@ -19,6 +21,6 @@ app.get('/about', function(req, res){
   res.render('about',{title:"About"})
 });
 
-http.listen(3000, function(){
-  console.log('listening on *:3000');
+http.listen(port, function(){
+  console.log('listening on ' + app.get('port'));
 });
